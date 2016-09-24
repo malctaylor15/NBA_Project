@@ -10,4 +10,6 @@ Stephen Curry's performance.
 
 Initially tried using linear regression but switched to PCA because to the high dimensionality in the Curry predictors. 
 
+More information about my progress is located in the NBA Progress Tracker.docx file. 
+
 Thanks to nba-reference.com for having data for Stephen Curry's basketball performance. 
