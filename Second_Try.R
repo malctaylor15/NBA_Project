@@ -81,4 +81,3 @@ validationplot(pcr.fit, val.type = "MSEP")
 
 # Try adding XLF ETF 
 XLF_in_sample <- Quandl("GOOG/NYSE_XLF", start_date = "2015-10-27 ", end_date = "2016-04-13")
-
