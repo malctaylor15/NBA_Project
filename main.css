@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Stephen Curry NBA Project </title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Who Loves Stephen Curry? </h1>
+				<p>Enough to make Under Armour stock bets based on his performance.  <a href="/about"> Maybe not...</a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+	</body>
+</html>
