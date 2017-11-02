@@ -44,12 +44,13 @@ fin_data_transform <- function(tickerData){
 }
 
 # Import the financial data and calculate log returns 
-UA_in_sample <- Quandl("YAHOO/UA", start_date = "2015-10-27 ", end_date = "2016-04-13")
+UA_in_sample <- read.csv("UA.csv")
+UA_in_sample$date_mod <- as.Date(UA_in_sample$Date)
 numb_returns <- dim(UA_in_sample)[1]
 UA_in_return <- fin_data_transform(UA_in_sample)
 
 # Dates that have both stock return and game
-similar_dates <- as.Date(UA_in_return$Date[UA_in_return$Date %in% data$Date],format = '%m-%d-%Y')
+similar_dates <- as.Date(UA_in_return$Date[UA_in_sample$date_mode %in% data$Date],format = '%m-%d-%Y')
 numb_both <- length(similar_dates)
 
 # Create testing dataframe 
